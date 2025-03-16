@@ -1,0 +1,26 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0D1B2A !important; /* Deep Navy */
+}
+
+input.form-control {
+    background: rgba(255,255,255,0.9);
+    border: none;
+    border-radius: 0;
+}
+
+input.form-control:focus {
+    box-shadow: none;
+    background: #fff;
+}
+
+.btn-warning {
+    background-color: #FFC947;
+    border-radius: 0;
+    color: #0D1B2A;
+}
+
+.btn-warning:hover {
+    background-color: #E3B23C;
+    color: #fff;
+}
